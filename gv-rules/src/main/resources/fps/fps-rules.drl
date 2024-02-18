@@ -1,0 +1,52 @@
+package fps;
+
+import com.citi.ParticipantEvent;
+import com.citi.Collector;
+
+declare ParticipantEvent
+    @role( event )
+    @timestamp( registeredTime )    
+end
+
+rule "FPS - 1"
+dialect "java"
+enabled true
+when
+    $t1:ParticipantEvent(location == "FUEL_STATION")
+    $t2: ParticipantEvent(
+            this != $t1, 
+            this meets[2h] $t1, 
+            location == "JEWELLERY_STORE"
+        )
+    $t3: ParticipantEvent(
+            this != $t2, 
+            this meets[4h] $t2, 
+            location == "ONLINE"
+        )   
+
+then
+    System.out.println("Staged transactions: " + $t1.getLocation() + " --> " 
+                    +  $t2.getLocation() + " (" + $t2.getId()+ ") "+ " --> " +  $t3.getLocation());
+end
+
+
+rule "FPS - 2"
+dialect "java"
+enabled true
+when
+    $t1:ParticipantEvent(location == "FLOWER BOUTIQUE")
+    $t2: ParticipantEvent(
+            this != $t1, 
+            this meets[2h] $t1, 
+            location == "JEWELLERY_STORE"
+        )
+    $t3: ParticipantEvent(
+            this != $t2, 
+            this meets[4h] $t2, 
+            location == "ONLINE"
+        )   
+
+then
+    System.out.println("Staged transactions: " + $t1.getLocation() + " --> " 
+                    +  $t2.getLocation() + " (" + $t2.getId()+ ") "+ " --> " +  $t3.getLocation());
+end

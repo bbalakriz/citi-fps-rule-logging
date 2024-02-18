@@ -1,0 +1,1136 @@
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: /home/bbalasub/MyWork/Setup/apache-maven-3.6.3
+Java version: 1.8.0_171, vendor: Oracle Corporation, runtime: /home/bbalasub/MyWork/Setup/jdk1.8.0_171/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "3.10.0-1160.24.1.el7.x86_64", arch: "amd64", family: "unix"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /home/bbalasub/MyWork/Setup/apache-maven-3.6.3/conf/settings.xml
+[DEBUG] Reading user settings from /home/bbalasub/.m2/settings.xml
+[DEBUG] Reading global toolchains from /home/bbalasub/MyWork/Setup/apache-maven-3.6.3/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /home/bbalasub/.m2/toolchains.xml
+[DEBUG] Using local repository at /home/bbalasub/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /home/bbalasub/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=3146605, ConflictMarker.markTime=1234045, ConflictMarker.nodeCount=536, ConflictIdSorter.graphTime=2207114, ConflictIdSorter.topsortTime=814280, ConflictIdSorter.conflictIdCount=126, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=22221753, ConflictResolver.conflictItemCount=433, DefaultDependencyCollector.collectTime=923431626, DefaultDependencyCollector.transformTime=32870727}
+[DEBUG] org.kie:kie-maven-plugin:jar:7.48.0.Final-redhat-00006
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.3.9.redhat-2:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:3.0.22.redhat-00001:compile (version managed from default)
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.9.0.redhat-00001:compile (version managed from default)
+[DEBUG]    org.apache.maven.shared:maven-artifact-transfer:jar:0.9.1:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:3.0.1:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-plexus:jar:2.3.0:compile (version managed from default)
+[DEBUG]             org.sonatype.sisu:sisu-inject-bean:jar:2.3.0:compile (version managed from default)
+[DEBUG]       commons-codec:commons-codec:jar:1.11.0.redhat-00001:compile (version managed from default)
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+[DEBUG]       commons-io:commons-io:jar:2.6.0.redhat-00001:compile (version managed from default)
+[DEBUG]    org.apache.maven:maven-core:jar:3.3.9.redhat-2:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.3.9.redhat-2:compile (version managed from default)
+[DEBUG]       org.apache.maven:maven-settings:jar:3.3.9.redhat-2:compile (version managed from default)
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.3.9.redhat-2:compile (version managed from default)
+[DEBUG]          org.apache.maven:maven-builder-support:jar:3.3.9.redhat-2:compile (version managed from default)
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.3.9.redhat-2:compile (version managed from default)
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.3.9.redhat-2:compile (version managed from default)
+[DEBUG]          com.google.guava:guava:jar:25.0-jre:compile (version managed from default)
+[DEBUG]             com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[DEBUG]             org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+[DEBUG]             com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+[DEBUG]             com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[DEBUG]             org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.3.9.redhat-2:compile (version managed from default)
+[DEBUG]          org.eclipse.aether:aether-spi:jar:1.1.0.redhat-1:compile (version managed from default)
+[DEBUG]       org.eclipse.aether:aether-impl:jar:1.1.0.redhat-1:compile (version managed from default)
+[DEBUG]       org.eclipse.aether:aether-api:jar:1.1.0.redhat-1:compile (version managed from default)
+[DEBUG]       org.eclipse.aether:aether-util:jar:1.1.0.redhat-1:compile (version managed from default)
+[DEBUG]       com.google.inject:guice:jar:no_aop:4.0.0.redhat-2:compile (version managed from default)
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.21.0.redhat-2:compile (version managed from default)
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3.0.redhat-1:compile (version managed from default)
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.7.0.redhat-1:compile (version managed from default)
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.3.9.redhat-2:compile
+[DEBUG]    org.codehaus.plexus:plexus-component-annotations:jar:1.6.0.redhat-2:compile
+[DEBUG]    org.codehaus.plexus:plexus-classworlds:jar:2.5.2.redhat-2:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.6.0.redhat-2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.7:compile
+[DEBUG]    org.slf4j:jcl-over-slf4j:jar:1.7.26.redhat-00001:runtime
+[DEBUG]    org.slf4j:log4j-over-slf4j:jar:1.7.26.redhat-00001:runtime
+[DEBUG]    com.google.protobuf:protobuf-java:jar:3.6.1:compile
+[DEBUG]    org.drools:drools-core:jar:7.48.0.Final-redhat-00006:compile
+[DEBUG]       org.kie.soup:kie-soup-xstream:jar:7.48.0.Final-redhat-00006:compile (version managed from default)
+[DEBUG]       org.drools:drools-core-reflective:jar:7.48.0.Final-redhat-00006:compile (version managed from default)
+[DEBUG]       org.drools:drools-core-dynamic:jar:7.48.0.Final-redhat-00006:runtime (version managed from default)
+[DEBUG]    org.drools:drools-compiler:jar:7.48.0.Final-redhat-00006:compile
+[DEBUG]       org.kie.soup:kie-soup-maven-support:jar:7.48.0.Final-redhat-00006:compile (version managed from default)
+[DEBUG]       org.antlr:antlr-runtime:jar:3.5.2.redhat-1:compile (version managed from default) (exclusions managed from default)
+[DEBUG]       com.thoughtworks.xstream:xstream:jar:1.4.14.redhat-00001:compile (version managed from default)
+[DEBUG]          xmlpull:xmlpull:jar:1.2.0.redhat-00001:compile (version managed from default)
+[DEBUG]          xpp3:xpp3_min:jar:1.2.0.redhat-00001:compile (version managed from default)
+[DEBUG]    org.kie:kie-memory-compiler:jar:7.48.0.Final-redhat-00006:compile
+[DEBUG]    org.drools:drools-ecj:jar:7.48.0.Final-redhat-00006:compile
+[DEBUG]    org.drools:drools-model-compiler:jar:7.48.0.Final-redhat-00006:compile
+[DEBUG]       org.drools:drools-canonical-model:jar:7.48.0.Final-redhat-00006:compile (version managed from default)
+[DEBUG]       com.github.javaparser:javaparser-core:jar:3.13.10:compile (version managed from default)
+[DEBUG]       org.drools:drools-mvel-parser:jar:7.48.0.Final-redhat-00006:compile (version managed from default)
+[DEBUG]       org.drools:drools-mvel-compiler:jar:7.48.0.Final-redhat-00006:compile (version managed from default)
+[DEBUG]    org.drools:drools-serialization-protobuf:jar:7.48.0.Final-redhat-00006:compile
+[DEBUG]       org.drools:drools-mvel:jar:7.48.0.Final-redhat-00006:compile (version managed from default)
+[DEBUG]          org.kie.soup:kie-soup-project-datamodel-commons:jar:7.48.0.Final-redhat-00006:compile (version managed from default)
+[DEBUG]    org.drools:drools-alphanetwork-compiler:jar:7.48.0.Final-redhat-00006:compile
+[DEBUG]    org.kie:kie-api:jar:7.48.0.Final-redhat-00006:compile
+[DEBUG]    org.kie:kie-internal:jar:7.48.0.Final-redhat-00006:compile
+[DEBUG]    org.javassist:javassist:jar:3.26.0.GA-redhat-00001:compile
+[DEBUG]    org.slf4j:slf4j-api:jar:1.7.26.redhat-00001:compile
+[DEBUG]    org.drools:drools-decisiontables:jar:7.48.0.Final-redhat-00006:runtime
+[DEBUG]       org.apache.poi:poi-ooxml:jar:4.1.2:runtime (version managed from default)
+[DEBUG]          org.apache.poi:poi-ooxml-schemas:jar:4.1.2:runtime
+[DEBUG]             org.apache.xmlbeans:xmlbeans:jar:3.1.0:runtime (version managed from default)
+[DEBUG]          com.github.virtuald:curvesapi:jar:1.06:runtime
+[DEBUG]       org.apache.poi:poi:jar:4.1.2:runtime (version managed from default)
+[DEBUG]          org.apache.commons:commons-collections4:jar:4.4:runtime
+[DEBUG]          com.zaxxer:SparseBitSet:jar:1.2:runtime
+[DEBUG]    org.drools:drools-templates:jar:7.48.0.Final-redhat-00006:runtime
+[DEBUG]       org.mvel:mvel2:jar:2.4.12.Final-redhat-00001:compile (version managed from default)
+[DEBUG]    org.drools:drools-scorecards:jar:7.48.0.Final-redhat-00006:runtime
+[DEBUG]       org.drools:kie-pmml:jar:7.48.0.Final-redhat-00006:runtime (version managed from default)
+[DEBUG]          junit:junit:jar:4.13.1:runtime (version managed from default)
+[DEBUG]             org.hamcrest:hamcrest-core:jar:1.3-redhat-1:runtime (version managed from default)
+[DEBUG]          org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:jar:1.0.1.Final-redhat-1:runtime (version managed from default)
+[DEBUG]          com.sun.xml.bind:jaxb-impl:jar:2.3.0.redhat-1:runtime (version managed from default)
+[DEBUG]          com.sun.xml.bind:jaxb-core:jar:2.3.0.redhat-1:runtime (version managed from default)
+[DEBUG]          javax.activation:activation:jar:1.1.1.redhat-5:runtime (version managed from default)
+[DEBUG]    org.kie:kie-pmml-commons:jar:7.48.0.Final-redhat-00006:compile
+[DEBUG]       org.kie:kie-pmml-api:jar:7.48.0.Final-redhat-00006:compile (version managed from default)
+[DEBUG]    org.kie:kie-pmml-models-drools-common:jar:7.48.0.Final-redhat-00006:compile
+[DEBUG]       org.kie:kie-pmml-compiler-commons:jar:7.48.0.Final-redhat-00006:compile (version managed from default)
+[DEBUG]       org.kie:kie-pmml-evaluator-core:jar:7.48.0.Final-redhat-00006:compile (version managed from default)
+[DEBUG]       org.kie:kie-pmml-kie-internal:jar:7.48.0.Final-redhat-00006:compile (version managed from default)
+[DEBUG]       org.jpmml:pmml-model:jar:1.5.1:compile (version managed from default)
+[DEBUG]          org.jpmml:pmml-agent:jar:1.5.1:compile
+[DEBUG]    org.kie:kie-pmml-compiler-api:jar:7.48.0.Final-redhat-00006:runtime
+[DEBUG]    org.kie:kie-pmml-compiler-core:jar:7.48.0.Final-redhat-00006:runtime
+[DEBUG]    org.kie:kie-pmml-evaluator-assembler:jar:7.48.0.Final-redhat-00006:compile
+[DEBUG]       org.kie:kie-pmml-evaluator-api:jar:7.48.0.Final-redhat-00006:compile (version managed from default)
+[DEBUG]    org.jbpm:jbpm-bpmn2:jar:7.48.0.Final-redhat-00006:runtime
+[DEBUG]       org.jbpm:jbpm-flow-builder:jar:7.48.0.Final-redhat-00006:runtime (version managed from default)
+[DEBUG]       org.jbpm:jbpm-flow:jar:7.48.0.Final-redhat-00006:runtime (version managed from default)
+[DEBUG]    org.jbpm:jbpm-case-mgmt-cmmn:jar:7.48.0.Final-redhat-00006:runtime
+[DEBUG]    org.kie.soup:kie-soup-project-datamodel-api:jar:7.48.0.Final-redhat-00006:runtime
+[DEBUG]       org.kie.soup:kie-soup-commons:jar:7.48.0.Final-redhat-00006:compile (version managed from default)
+[DEBUG]    org.drools:drools-workbench-models-guided-dtable:jar:7.48.0.Final-redhat-00006:runtime
+[DEBUG]       org.drools:drools-workbench-models-datamodel-api:jar:7.48.0.Final-redhat-00006:runtime (version managed from default)
+[DEBUG]       org.drools:drools-workbench-models-commons:jar:7.48.0.Final-redhat-00006:runtime (version managed from default)
+[DEBUG]    org.drools:drools-workbench-models-guided-template:jar:7.48.0.Final-redhat-00006:runtime
+[DEBUG]    org.drools:drools-workbench-models-guided-scorecard:jar:7.48.0.Final-redhat-00006:runtime
+[DEBUG]    org.optaplanner:optaplanner-workbench-models-datamodel-api:jar:7.48.0.Final-redhat-00006:runtime
+[DEBUG]    org.optaplanner:optaplanner-core:jar:7.48.0.Final-redhat-00006:runtime
+[DEBUG]       org.apache.commons:commons-math3:jar:3.4.1.redhat-3:runtime (version managed from default)
+[DEBUG]       org.reflections:reflections:jar:0.9.11.redhat-00004:runtime (version managed from default)
+[DEBUG]    org.kie:kie-dmn-core:jar:7.48.0.Final-redhat-00006:compile
+[DEBUG]       org.kie:kie-dmn-model:jar:7.48.0.Final-redhat-00006:compile (version managed from default)
+[DEBUG]       org.kie:kie-dmn-backend:jar:7.48.0.Final-redhat-00006:compile (version managed from default)
+[DEBUG]       org.kie:kie-dmn-feel:jar:7.48.0.Final-redhat-00006:compile (version managed from default)
+[DEBUG]          ch.obermuhlner:big-math:jar:2.0.1:compile (version managed from default)
+[DEBUG]       org.drools:drools-ruleunit:jar:7.48.0.Final-redhat-00006:compile (version managed from default)
+[DEBUG]       org.antlr:antlr4-runtime:jar:4.8.0.redhat-00002:compile (version managed from default)
+[DEBUG]    org.kie:kie-dmn-validation:jar:7.48.0.Final-redhat-00006:compile
+[DEBUG]    org.kie:kie-dmn-api:jar:7.48.0.Final-redhat-00006:compile
+[DEBUG]    org.apache.commons:commons-compress:jar:1.19.0.redhat-00001:compile
+[DEBUG]    org.apache.commons:commons-exec:jar:1.3:compile
+[DEBUG] Created new class realm extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006
+[DEBUG] Importing foreign packages into class realm extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie:kie-maven-plugin:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.22.redhat-00001
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.9.0.redhat-00001
+[DEBUG]   Included: org.apache.maven.shared:maven-artifact-transfer:jar:0.9.1
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:3.0.1
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:2.3.0
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.11.0.redhat-00001
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.6.0.redhat-00001
+[DEBUG]   Included: org.apache.maven:maven-builder-support:jar:3.3.9.redhat-2
+[DEBUG]   Included: com.google.guava:guava:jar:25.0-jre
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:1.3.9
+[DEBUG]   Included: org.checkerframework:checker-compat-qual:jar:2.0.0
+[DEBUG]   Included: com.google.errorprone:error_prone_annotations:jar:2.1.3
+[DEBUG]   Included: com.google.j2objc:j2objc-annotations:jar:1.1
+[DEBUG]   Included: org.codehaus.mojo:animal-sniffer-annotations:jar:1.14
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:1.1.0.redhat-1
+[DEBUG]   Included: com.google.inject:guice:jar:no_aop:4.0.0.redhat-2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.21.0.redhat-2
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3.0.redhat-1
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.7.0.redhat-1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.6.0.redhat-2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.7
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.7.26.redhat-00001
+[DEBUG]   Included: org.slf4j:log4j-over-slf4j:jar:1.7.26.redhat-00001
+[DEBUG]   Included: com.google.protobuf:protobuf-java:jar:3.6.1
+[DEBUG]   Included: org.drools:drools-core:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie.soup:kie-soup-xstream:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.drools:drools-core-reflective:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.drools:drools-core-dynamic:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.drools:drools-compiler:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie.soup:kie-soup-maven-support:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.antlr:antlr-runtime:jar:3.5.2.redhat-1
+[DEBUG]   Included: com.thoughtworks.xstream:xstream:jar:1.4.14.redhat-00001
+[DEBUG]   Included: xmlpull:xmlpull:jar:1.2.0.redhat-00001
+[DEBUG]   Included: xpp3:xpp3_min:jar:1.2.0.redhat-00001
+[DEBUG]   Included: org.kie:kie-memory-compiler:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.drools:drools-ecj:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.drools:drools-model-compiler:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.drools:drools-canonical-model:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: com.github.javaparser:javaparser-core:jar:3.13.10
+[DEBUG]   Included: org.drools:drools-mvel-parser:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.drools:drools-mvel-compiler:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.drools:drools-serialization-protobuf:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.drools:drools-mvel:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie.soup:kie-soup-project-datamodel-commons:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.drools:drools-alphanetwork-compiler:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie:kie-api:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie:kie-internal:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.javassist:javassist:jar:3.26.0.GA-redhat-00001
+[DEBUG]   Included: org.drools:drools-decisiontables:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.apache.poi:poi-ooxml:jar:4.1.2
+[DEBUG]   Included: org.apache.poi:poi-ooxml-schemas:jar:4.1.2
+[DEBUG]   Included: org.apache.xmlbeans:xmlbeans:jar:3.1.0
+[DEBUG]   Included: com.github.virtuald:curvesapi:jar:1.06
+[DEBUG]   Included: org.apache.poi:poi:jar:4.1.2
+[DEBUG]   Included: org.apache.commons:commons-collections4:jar:4.4
+[DEBUG]   Included: com.zaxxer:SparseBitSet:jar:1.2
+[DEBUG]   Included: org.drools:drools-templates:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.mvel:mvel2:jar:2.4.12.Final-redhat-00001
+[DEBUG]   Included: org.drools:drools-scorecards:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.drools:kie-pmml:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: junit:junit:jar:4.13.1
+[DEBUG]   Included: org.hamcrest:hamcrest-core:jar:1.3-redhat-1
+[DEBUG]   Included: org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:jar:1.0.1.Final-redhat-1
+[DEBUG]   Included: com.sun.xml.bind:jaxb-impl:jar:2.3.0.redhat-1
+[DEBUG]   Included: com.sun.xml.bind:jaxb-core:jar:2.3.0.redhat-1
+[DEBUG]   Included: javax.activation:activation:jar:1.1.1.redhat-5
+[DEBUG]   Included: org.kie:kie-pmml-commons:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie:kie-pmml-api:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie:kie-pmml-models-drools-common:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie:kie-pmml-compiler-commons:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie:kie-pmml-evaluator-core:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie:kie-pmml-kie-internal:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.jpmml:pmml-model:jar:1.5.1
+[DEBUG]   Included: org.jpmml:pmml-agent:jar:1.5.1
+[DEBUG]   Included: org.kie:kie-pmml-compiler-api:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie:kie-pmml-compiler-core:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie:kie-pmml-evaluator-assembler:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie:kie-pmml-evaluator-api:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.jbpm:jbpm-bpmn2:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.jbpm:jbpm-flow-builder:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.jbpm:jbpm-flow:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.jbpm:jbpm-case-mgmt-cmmn:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie.soup:kie-soup-project-datamodel-api:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie.soup:kie-soup-commons:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.drools:drools-workbench-models-guided-dtable:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.drools:drools-workbench-models-datamodel-api:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.drools:drools-workbench-models-commons:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.drools:drools-workbench-models-guided-template:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.drools:drools-workbench-models-guided-scorecard:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.optaplanner:optaplanner-workbench-models-datamodel-api:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.optaplanner:optaplanner-core:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.apache.commons:commons-math3:jar:3.4.1.redhat-3
+[DEBUG]   Included: org.reflections:reflections:jar:0.9.11.redhat-00004
+[DEBUG]   Included: org.kie:kie-dmn-core:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie:kie-dmn-model:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie:kie-dmn-backend:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie:kie-dmn-feel:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: ch.obermuhlner:big-math:jar:2.0.1
+[DEBUG]   Included: org.drools:drools-ruleunit:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.antlr:antlr4-runtime:jar:4.8.0.redhat-00002
+[DEBUG]   Included: org.kie:kie-dmn-validation:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.kie:kie-dmn-api:jar:7.48.0.Final-redhat-00006
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.19.0.redhat-00001
+[DEBUG]   Included: org.apache.commons:commons-exec:jar:1.3
+[DEBUG] Extension realms for project com.bala:rep-build-error:kjar:3.0.0: [ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]]
+[DEBUG] Created new class realm project>com.bala:rep-build-error:3.0.0
+[DEBUG] Populating class realm project>com.bala:rep-build-error:3.0.0
+[DEBUG] Looking up lifecycle mappings for packaging kjar from ClassRealm[project>com.bala:rep-build-error:3.0.0, parent: ClassRealm[maven.api, parent: null]]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.bala:rep-build-error:kjar:3.0.0
+[DEBUG] Tasks:   [clean, compile]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ----------------------< com.bala:rep-build-error >----------------------
+[INFO] Building rep-build-error 3.0.0
+[INFO] --------------------------------[ kjar ]--------------------------------
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-resources-plugin/maven-metadata.xml in local (/home/bbalasub/.m2/repository)
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-resources-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-resources-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-resources-plugin to 3.2.0 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-jar-plugin/maven-metadata.xml in local (/home/bbalasub/.m2/repository)
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-jar-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-jar-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-jar-plugin to 3.2.0 from repository redhatga (https://maven.repository.redhat.com/ga, default, releases+snapshots)
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml in local (/home/bbalasub/.m2/repository)
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-surefire-plugin to 3.0.0-M5 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-install-plugin/maven-metadata.xml in local (/home/bbalasub/.m2/repository)
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-install-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-install-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-install-plugin to 2.4 from repository redhatga (https://maven.repository.redhat.com/ga, default, releases+snapshots)
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-deploy-plugin/maven-metadata.xml in local (/home/bbalasub/.m2/repository)
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-deploy-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-deploy-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-deploy-plugin to 2.8.2 from repository redhatga (https://maven.repository.redhat.com/ga, default, releases+snapshots)
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.bala:rep-build-error:3.0.0
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, compile+runtime]
+[DEBUG] Repositories (dependencies): [archetype (https://maven.repository.redhat.com/ga/, default, releases+snapshots), maven-repo (https://repo.maven.apache.org/maven2, default, releases+snapshots), spring-repo (https://repo.spring.io/release/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [redhatga (https://maven.repository.redhat.com/ga, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.2.0:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006:validateDMN (default-validateDMN)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <generateModel default-value="YES_WITHDRL">${generateModel}</generateModel>
+  <project default-value="${project}"/>
+  <resources default-value="${project.build.resources}"/>
+  <validateDMN default-value="VALIDATE_SCHEMA,VALIDATE_MODEL,ANALYZE_DECISION_TABLE">${validateDMN}</validateDMN>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">1.8</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">1.8</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006:generateModel (default-generateModel)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <generateModel default-value="YES_WITHDRL">${generateModel}</generateModel>
+  <mavenSession default-value="${session}"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <project default-value="${project}"/>
+  <projectDir default-value="${project.basedir}"/>
+  <resources default-value="${project.build.resources}"/>
+  <targetDirectory default-value="${project.build.directory}"/>
+  <testDir default-value="${project.build.testSourceDirectory}"/>
+  <validateDMN default-value="VALIDATE_SCHEMA,VALIDATE_MODEL,ANALYZE_DECISION_TABLE">${validateDMN}</validateDMN>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006:generateDMNModel (default-generateDMNModel)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <generateDMNModel default-value="no">${generateDMNModel}</generateDMNModel>
+  <project default-value="${project}"/>
+  <projectDir default-value="${project.basedir}"/>
+  <targetDirectory default-value="${project.build.directory}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006:generatePMMLModel (default-generatePMMLModel)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <mavenSession default-value="${session}"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <project default-value="${project}"/>
+  <projectDir default-value="${project.basedir}"/>
+  <resourcesDirectories default-value="${project.resources}"/>
+  <targetDirectory default-value="${project.build.directory}"/>
+  <testDir default-value="${project.build.testSourceDirectory}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile-1)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">1.8</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">1.8</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006:build (default-build)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <generateModel default-value="YES_WITHDRL">${generateModel}</generateModel>
+  <mavenSession default-value="${session}"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.build.resources}"/>
+  <sourceFolder default-value="src/main/resources"/>
+  <usesPMML default-value="no"/>
+  <validateDMN default-value="VALIDATE_SCHEMA,VALIDATE_MODEL,ANALYZE_DECISION_TABLE">${validateDMN}</validateDMN>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=89376, ConflictMarker.markTime=28987, ConflictMarker.nodeCount=61, ConflictIdSorter.graphTime=54519, ConflictIdSorter.topsortTime=23953, ConflictIdSorter.conflictIdCount=24, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=513814, ConflictResolver.conflictItemCount=60, DefaultDependencyCollector.collectTime=75354428, DefaultDependencyCollector.transformTime=775882}
+[DEBUG] com.bala:rep-build-error:kjar:3.0.0
+[DEBUG]    org.kie:kie-api:jar:7.44.0.Final-redhat-00003:provided
+[DEBUG]       org.kie.soup:kie-soup-maven-support:jar:7.44.0.Final-redhat-00003:provided (version managed from 7.44.0.Final-redhat-00003)
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.26.redhat-00001:provided
+[DEBUG]    org.drools:drools-core:jar:7.44.0.Final-redhat-00003:provided
+[DEBUG]       org.mvel:mvel2:jar:2.4.10.Final-redhat-00001:provided
+[DEBUG]       org.kie:kie-internal:jar:7.44.0.Final-redhat-00003:provided (version managed from 7.44.0.Final-redhat-00003)
+[DEBUG]       org.kie.soup:kie-soup-xstream:jar:7.44.0.Final-redhat-00003:provided (version managed from 7.44.0.Final-redhat-00003)
+[DEBUG]       org.drools:drools-core-reflective:jar:7.44.0.Final-redhat-00003:provided (version managed from 7.44.0.Final-redhat-00003)
+[DEBUG]       org.drools:drools-core-dynamic:jar:7.44.0.Final-redhat-00003:provided (version managed from 7.44.0.Final-redhat-00003)
+[DEBUG]       org.kie.soup:kie-soup-project-datamodel-commons:jar:7.44.0.Final-redhat-00003:provided (version managed from 7.44.0.Final-redhat-00003)
+[DEBUG]          org.kie.soup:kie-soup-project-datamodel-api:jar:7.44.0.Final-redhat-00003:provided (version managed from 7.44.0.Final-redhat-00003)
+[DEBUG]       commons-codec:commons-codec:jar:1.11.0.redhat-00001:provided
+[DEBUG]    org.drools:drools-compiler:jar:7.44.0.Final-redhat-00003:provided
+[DEBUG]       org.kie.soup:kie-soup-commons:jar:7.44.0.Final-redhat-00003:provided (version managed from 7.44.0.Final-redhat-00003)
+[DEBUG]       org.antlr:antlr-runtime:jar:3.5.2.redhat-1:provided
+[DEBUG]       com.thoughtworks.xstream:xstream:jar:1.4.11.1-redhat-00001:provided
+[DEBUG]          xmlpull:xmlpull:jar:1.1.3.1:provided
+[DEBUG]          xpp3:xpp3_min:jar:1.1.4c-redhat-2:provided
+[DEBUG]       com.google.protobuf:protobuf-java:jar:3.6.1:provided
+[DEBUG]    org.drools:drools-model-compiler:jar:7.44.0.Final-redhat-00003:provided
+[DEBUG]       org.drools:drools-canonical-model:jar:7.44.0.Final-redhat-00003:provided (version managed from 7.44.0.Final-redhat-00003)
+[DEBUG]       com.github.javaparser:javaparser-core:jar:3.13.10:provided
+[DEBUG]       org.drools:drools-mvel-parser:jar:7.44.0.Final-redhat-00003:provided (version managed from 7.44.0.Final-redhat-00003)
+[DEBUG]       org.drools:drools-mvel-compiler:jar:7.44.0.Final-redhat-00003:provided (version managed from 7.44.0.Final-redhat-00003)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ rep-build-error ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=27816, ConflictMarker.markTime=12035, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=23457, ConflictIdSorter.topsortTime=8342, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=90752, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=4534286, DefaultDependencyCollector.transformTime=178233}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Imported:  < project>com.bala:rep-build-error:3.0.0
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes
+[DEBUG]   (f) reportDirectory = /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target
+[INFO] Deleting file /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes/fps/fps-rules.drl
+[INFO] Deleting directory /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes/fps
+[INFO] Deleting file /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes/META-INF/kmodule.xml
+[INFO] Deleting directory /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes/META-INF
+[INFO] Deleting file /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes/com/bala/FpsTest.class
+[INFO] Deleting file /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes/com/bala/ParticipantEvent.class
+[INFO] Deleting file /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes/com/bala/Collector.class
+[INFO] Deleting directory /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes/com/bala
+[INFO] Deleting directory /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes/com
+[INFO] Deleting directory /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes
+[INFO] Deleting file /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+[INFO] Deleting file /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+[INFO] Deleting directory /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/maven-status/maven-compiler-plugin/compile/default-compile
+[INFO] Deleting directory /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/maven-status/maven-compiler-plugin/compile
+[INFO] Deleting directory /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/maven-status/maven-compiler-plugin
+[INFO] Deleting directory /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/maven-status
+[INFO] Deleting directory /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/generated-sources/annotations
+[INFO] Deleting directory /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/generated-sources
+[INFO] Deleting directory /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target
+[DEBUG] Skipping non-existing directory /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes
+[DEBUG] Skipping non-existing directory /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/test-classes
+[DEBUG] Skipping non-existing directory /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/site
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ rep-build-error ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=73302, ConflictMarker.markTime=32400, ConflictMarker.nodeCount=86, ConflictIdSorter.graphTime=29060, ConflictIdSorter.topsortTime=25575, ConflictIdSorter.conflictIdCount=35, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=536115, ConflictResolver.conflictItemCount=85, DefaultDependencyCollector.collectTime=42820394, DefaultDependencyCollector.transformTime=721596}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.2.0
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.1.0:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.1.0:compile
+[DEBUG]          org.eclipse.aether:aether-spi:jar:0.9.0.M2:compile
+[DEBUG]       org.eclipse.aether:aether-impl:jar:0.9.0.M2:compile
+[DEBUG]       org.eclipse.aether:aether-api:jar:0.9.0.M2:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:3.0.10:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.4.2:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.1.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-component-annotations:jar:2.0.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.26:runtime
+[DEBUG]    org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile
+[DEBUG]       javax.enterprise:cdi-api:jar:1.0:compile
+[DEBUG]          javax.annotation:jsr250-api:jar:1.0:compile
+[DEBUG]          javax.inject:javax.inject:jar:1:compile
+[DEBUG]       com.google.guava:guava:jar:10.0.1:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[DEBUG]       org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0:compile
+[DEBUG]          aopalliance:aopalliance:jar:1.0:compile
+[DEBUG]       org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.0.0.M2a:compile
+[DEBUG]          asm:asm:jar:3.3.1:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.2.0:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.3.3:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    commons-io:commons-io:jar:2.6:compile
+[DEBUG]    org.apache.commons:commons-lang3:jar:3.8.1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.2.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.2.0
+[DEBUG]   Imported:  < project>com.bala:rep-build-error:3.0.0
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.2.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.2.0
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:0.9.0.M2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.10
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:2.0.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.26
+[DEBUG]   Included: javax.enterprise:cdi-api:jar:1.0
+[DEBUG]   Included: com.google.guava:guava:jar:10.0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:1.3.9
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0
+[DEBUG]   Included: aopalliance:aopalliance:jar:1.0
+[DEBUG]   Included: org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.0.0.M2a
+[DEBUG]   Included: asm:asm:jar:3.3.1
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.2.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.3.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: commons-io:commons-io:jar:2.6
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.8.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:3.2.0:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.2.0, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:3.2.0:resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.bala:rep-build-error:3.0.0 @ /home/bbalasub/Desktop/citi-fps-rules/gv-rules/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/bbalasub/Desktop/citi-fps-rules/gv-rules/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7c4fc2bf
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/4395,unix/unix:/tmp/.ICE-unix/4395, env.LESSOPEN=||/usr/bin/lesspipe.sh %s, sun.java.launcher=SUN_STANDARD, env.QT_IM_MODULE=ibus, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Linux, version.org.kie=7.48.0.Final-redhat-00006, sun.boot.class.path=/home/bbalasub/MyWork/Setup/jdk1.8.0_171/jre/lib/resources.jar:/home/bbalasub/MyWork/Setup/jdk1.8.0_171/jre/lib/rt.jar:/home/bbalasub/MyWork/Setup/jdk1.8.0_171/jre/lib/sunrsasign.jar:/home/bbalasub/MyWork/Setup/jdk1.8.0_171/jre/lib/jsse.jar:/home/bbalasub/MyWork/Setup/jdk1.8.0_171/jre/lib/jce.jar:/home/bbalasub/MyWork/Setup/jdk1.8.0_171/jre/lib/charsets.jar:/home/bbalasub/MyWork/Setup/jdk1.8.0_171/jre/lib/jfr.jar:/home/bbalasub/MyWork/Setup/jdk1.8.0_171/jre/classes, env.PWD=/home/bbalasub/Desktop/citi-fps-rules/gv-rules, env.NO_AT_BRIDGE=1, version.commons.lang=2.6, sun.desktop=gnome, env.LANG=en_US.UTF-8, java.vm.specification.vendor=Oracle Corporation, env.XDG_MENU_PREFIX=gnome-, java.runtime.version=1.8.0_171-b11, env.HISTSIZE=10000, ba.version=7.9.0.redhat-00002, env.XDG_VTNR=1, project.build.sourceEncoding=UTF-8, env.DISPLAY=:0, env.QT_GRAPHICSSYSTEM_CHECKED=1, env.GJS_DEBUG_TOPICS=JS ERROR;JS LOG, user.name=bbalasub, env.DBUS_STARTER_BUS_TYPE=session, maven.build.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f), env.USER=bbalasub, env.HISTCONTROL=ignoreboth, env.SHELL=/bin/bash, env.QTLIB=/usr/lib64/qt-3.3/lib, env.DESKTOP_SESSION=gnome, env.XDG_DATA_DIRS=/home/bbalasub/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/, env.GJS_DEBUG_OUTPUT=stderr, env.ORIGINAL_XDG_CURRENT_DESKTOP=GNOME, env.PATH=/usr/local/bin:/home/bbalasub/MyWork/Setup/oc-client/oc-tool-4.5:/home/bbalasub/.minishift/cache/oc/v3.9.0/linux:/home/bbalasub/MyWork/Programs/mta-cli-5.1.3.Final/bin:/home/bbalasub/MyWork/Setup/apache-maven-3.6.3/bin:/home/bbalasub/MyWork/Setup/jdk1.8.0_171/bin:/home/bbalasub/MyWork/Setup/crc-13:/home/bbalasub/MyWork/Setup/minishift:/home/bbalasub/istio-1.3.0/bin/:/home/bbalasub/MyWork/Setup/minikube:/home/bbalasub/MyWork/Setup/postman:/usr/local/bin:/home/bbalasub/MyWork/Setup/oc-client/oc-tool-4.5:/home/bbalasub/.minishift/cache/oc/v3.9.0/linux:/home/bbalasub/MyWork/Programs/mta-cli-5.1.3.Final/bin:/home/bbalasub/MyWork/Setup/apache-maven-3.6.3/bin:/home/bbalasub/MyWork/Setup/jdk1.8.0_171/bin:/home/bbalasub/MyWork/Setup/crc-13:/home/bbalasub/MyWork/Setup/minishift:/home/bbalasub/istio-1.3.0/bin/:/home/bbalasub/MyWork/Setup/minikube:/home/bbalasub/MyWork/Setup/postman:/usr/local/bin:/home/bbalasub/MyWork/Setup/oc-client/oc-tool-4.5:/home/bbalasub/.minishift/cache/oc/v3.9.0/linux:/home/bbalasub/MyWork/Programs/mta-cli-5.1.3.Final/bin:/home/bbalasub/MyWork/Setup/apache-maven-3.6.3/bin:/home/bbalasub/MyWork/Setup/jdk1.8.0_171/bin:/home/bbalasub/MyWork/Setup/crc-13:/home/bbalasub/MyWork/Setup/minishift:/home/bbalasub/istio-1.3.0/bin/:/home/bbalasub/MyWork/Setup/minikube:/home/bbalasub/MyWork/Setup/postman:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/bbalasub/.local/bin:/home/bbalasub/bin, env.XDG_CURRENT_DESKTOP=GNOME, user.language=en, env.XDG_SESSION_DESKTOP=gnome, env.IMSETTINGS_MODULE=none, sun.boot.library.path=/home/bbalasub/MyWork/Setup/jdk1.8.0_171/jre/lib/amd64, classworlds.conf=/home/bbalasub/MyWork/Setup/apache-maven-3.6.3/bin/m2.conf, env.VSCODE_GIT_ASKPASS_MAIN=/usr/share/codium/resources/app/extensions/git/dist/askpass-main.js, env.GNOME_TERMINAL_SERVICE=:1.391, java.version=1.8.0_171, user.timezone=, project.baseUri=file:/home/bbalasub/Desktop/citi-fps-rules/gv-rules/, maven.build.timestamp=2021-06-16T02:45:30Z, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-c8lZOw3vR9,guid=ec8dd5b34e8bb53b1f1b136e60c942c5, sun.arch.data.model=64, java.endorsed.dirs=/home/bbalasub/MyWork/Setup/jdk1.8.0_171/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=4, file.separator=/, env.HOSTNAME=bbalasub.sin.csb, java.specification.name=Java Platform API Specification, maven.conf=/home/bbalasub/MyWork/Setup/apache-maven-3.6.3/conf, env.IMSETTINGS_INTEGRATE_DESKTOP=yes, env.QTDIR=/usr/lib64/qt-3.3, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, java.class.version=52.0, env.GDMSESSION=gnome, env.CHROME_DESKTOP=codium-url-handler.desktop, version.org.slf4j=1.7.5, env.GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/f961bdbf_e343_4c04_8b6a_d4dfae563234, user.country=US, java.home=/home/bbalasub/MyWork/Setup/jdk1.8.0_171/jre, java.vm.info=mixed mode, env.KRB5CCNAME=KEYRING:persistent:103881, env.LOGNAME=bbalasub, os.version=3.10.0-1160.24.1.el7.x86_64, maven.compiler.target=1.8, env.TERM_PROGRAM_VERSION=1.50.1, version.ch.qos.logback=1.1.0, path.separator=:, java.vm.version=25.171-b11, env.QTINC=/usr/lib64/qt-3.3/include, env.VSCODE_GIT_IPC_HANDLE=/run/user/103881/vscode-git-17cc358f81.sock, env.GRAALVM_HOME=/home/bbalasub/MyWork/Setup/graalvm-ce-19.3.1, env.JAVA_HOME=/home/bbalasub/MyWork/Setup/jdk1.8.0_171, env.XDG_SESSION_TYPE=x11, env.TERM=xterm-256color, java.awt.printerjob=sun.print.PSPrinterJob, env.APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL=true, env.WINDOWPATH=1, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.X11.XToolkit, env.XMODIFIERS=@im=ibus, env.GDM_LANG=en_US.UTF-8, user.home=/home/bbalasub, env.OLDPWD=/home/bbalasub/Desktop/citi-fps-rules/gv-rules, java.specification.vendor=Oracle Corporation, env.M2_HOME=/home/bbalasub/MyWork/Setup/apache-maven-3.6.3, env.HISTTIMEFORMAT=%F %T , env.TERM_PROGRAM=vscode, env.VTE_VERSION=5204, java.vendor.url=http://java.oracle.com/, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, library.jansi.path=/home/bbalasub/MyWork/Setup/apache-maven-3.6.3/lib/jansi-native, env.MAVEN_CMD_LINE_ARGS= clean compile -DgenerateModel=YES -X, env.XDG_SEAT=seat0, java.vm.vendor=Oracle Corporation, java.runtime.name=Java(TM) SE Runtime Environment, maven.home=/home/bbalasub/MyWork/Setup/apache-maven-3.6.3, java.class.path=/home/bbalasub/MyWork/Setup/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean compile -DgenerateModel=YES -X, env.XDG_SESSION_ID=2, maven.version=3.6.3, generateModel=YES, env.GIT_ASKPASS=/usr/share/codium/resources/app/extensions/git/dist/askpass.sh, env.VSCODE_GIT_ASKPASS_NODE=/usr/share/codium/codium, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.os.patch.level=unknown, sun.cpu.endian=little, env.HOME=/home/bbalasub, env.MTA_CLI_HOME=/home/bbalasub/MyWork/Programs/mta-cli-5.1.3.Final, env.LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:, java.io.tmpdir=/tmp, maven.multiModuleProjectDirectory=/home/bbalasub/Desktop/citi-fps-rules/gv-rules, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.SSH_AUTH_SOCK=/run/user/103881/keyring/ssh, maven.compiler.source=1.8, env.DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-c8lZOw3vR9,guid=ec8dd5b34e8bb53b1f1b136e60c942c5, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, os.arch=amd64, env.XDG_RUNTIME_DIR=/run/user/103881, java.ext.dirs=/home/bbalasub/MyWork/Setup/jdk1.8.0_171/jre/lib/ext:/usr/java/packages/lib/ext, env.XAUTHORITY=/run/gdm/auth-for-bbalasub-6Hw4YN/database, user.dir=/home/bbalasub/Desktop/citi-fps-rules/gv-rules, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.COLORTERM=truecolor, env.USERNAME=bbalasub, env.MAIL=/var/spool/mail/bbalasub, file.encoding=UTF-8, java.specification.version=1.8, env.MAVEN_PROJECTBASEDIR=/home/bbalasub/Desktop/citi-fps-rules/gv-rules}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[DEBUG] resource with targetPath null
+directory /home/bbalasub/Desktop/citi-fps-rules/gv-rules/src/main/resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 2 resources
+[DEBUG] Copying file META-INF/kmodule.xml
+[DEBUG] file kmodule.xml has a filtered file extension
+[DEBUG] Using 'UTF-8' encoding to copy filtered resource 'kmodule.xml'.
+[DEBUG] copy /home/bbalasub/Desktop/citi-fps-rules/gv-rules/src/main/resources/META-INF/kmodule.xml to /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes/META-INF/kmodule.xml
+[DEBUG] Copying file fps/fps-rules.drl
+[DEBUG] file fps-rules.drl has a filtered file extension
+[DEBUG] Using 'UTF-8' encoding to copy filtered resource 'fps-rules.drl'.
+[DEBUG] copy /home/bbalasub/Desktop/citi-fps-rules/gv-rules/src/main/resources/fps/fps-rules.drl to /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes/fps/fps-rules.drl
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- kie-maven-plugin:7.48.0.Final-redhat-00006:validateDMN (default-validateDMN) @ rep-build-error ---
+[DEBUG] Configuring mojo org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006:validateDMN from plugin realm ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006:validateDMN' with basic configurator -->
+[DEBUG]   (f) generateModel = YES
+[DEBUG]   (f) project = MavenProject: com.bala:rep-build-error:3.0.0 @ /home/bbalasub/Desktop/citi-fps-rules/gv-rules/pom.xml
+[DEBUG]   (f) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/bbalasub/Desktop/citi-fps-rules/gv-rules/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) validateDMN = VALIDATE_SCHEMA,VALIDATE_MODEL,ANALYZE_DECISION_TABLE
+[DEBUG] -- end configuration --
+[DEBUG] resourcesPaths: /home/bbalasub/Desktop/citi-fps-rules/gv-rules/src/main/resources
+[INFO] Looking for DMN models in path: /home/bbalasub/Desktop/citi-fps-rules/gv-rules/src/main/resources
+[INFO] No DMN Models found.
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ rep-build-error ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=173791, ConflictMarker.markTime=90488, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=57037, ConflictIdSorter.topsortTime=52311, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=899897, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=73997194, DefaultDependencyCollector.transformTime=1304531}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.1:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.2:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Imported:  < project>com.bala:rep-build-error:3.0.0
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/bbalasub/Desktop/citi-fps-rules/gv-rules
+[DEBUG]   (f) buildDirectory = /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target
+[DEBUG]   (f) classpathElements = [/home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes, /home/bbalasub/.m2/repository/org/kie/kie-api/7.44.0.Final-redhat-00003/kie-api-7.44.0.Final-redhat-00003.jar, /home/bbalasub/.m2/repository/org/kie/soup/kie-soup-maven-support/7.44.0.Final-redhat-00003/kie-soup-maven-support-7.44.0.Final-redhat-00003.jar, /home/bbalasub/.m2/repository/org/slf4j/slf4j-api/1.7.26.redhat-00001/slf4j-api-1.7.26.redhat-00001.jar, /home/bbalasub/.m2/repository/org/drools/drools-core/7.44.0.Final-redhat-00003/drools-core-7.44.0.Final-redhat-00003.jar, /home/bbalasub/.m2/repository/org/mvel/mvel2/2.4.10.Final-redhat-00001/mvel2-2.4.10.Final-redhat-00001.jar, /home/bbalasub/.m2/repository/org/kie/kie-internal/7.44.0.Final-redhat-00003/kie-internal-7.44.0.Final-redhat-00003.jar, /home/bbalasub/.m2/repository/org/kie/soup/kie-soup-xstream/7.44.0.Final-redhat-00003/kie-soup-xstream-7.44.0.Final-redhat-00003.jar, /home/bbalasub/.m2/repository/org/drools/drools-core-reflective/7.44.0.Final-redhat-00003/drools-core-reflective-7.44.0.Final-redhat-00003.jar, /home/bbalasub/.m2/repository/org/drools/drools-core-dynamic/7.44.0.Final-redhat-00003/drools-core-dynamic-7.44.0.Final-redhat-00003.jar, /home/bbalasub/.m2/repository/org/kie/soup/kie-soup-project-datamodel-commons/7.44.0.Final-redhat-00003/kie-soup-project-datamodel-commons-7.44.0.Final-redhat-00003.jar, /home/bbalasub/.m2/repository/org/kie/soup/kie-soup-project-datamodel-api/7.44.0.Final-redhat-00003/kie-soup-project-datamodel-api-7.44.0.Final-redhat-00003.jar, /home/bbalasub/.m2/repository/commons-codec/commons-codec/1.11.0.redhat-00001/commons-codec-1.11.0.redhat-00001.jar, /home/bbalasub/.m2/repository/org/drools/drools-compiler/7.44.0.Final-redhat-00003/drools-compiler-7.44.0.Final-redhat-00003.jar, /home/bbalasub/.m2/repository/org/kie/soup/kie-soup-commons/7.44.0.Final-redhat-00003/kie-soup-commons-7.44.0.Final-redhat-00003.jar, /home/bbalasub/.m2/repository/org/antlr/antlr-runtime/3.5.2.redhat-1/antlr-runtime-3.5.2.redhat-1.jar, /home/bbalasub/.m2/repository/com/thoughtworks/xstream/xstream/1.4.11.1-redhat-00001/xstream-1.4.11.1-redhat-00001.jar, /home/bbalasub/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar, /home/bbalasub/.m2/repository/xpp3/xpp3_min/1.1.4c-redhat-2/xpp3_min-1.1.4c-redhat-2.jar, /home/bbalasub/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar, /home/bbalasub/.m2/repository/org/drools/drools-model-compiler/7.44.0.Final-redhat-00003/drools-model-compiler-7.44.0.Final-redhat-00003.jar, /home/bbalasub/.m2/repository/org/drools/drools-canonical-model/7.44.0.Final-redhat-00003/drools-canonical-model-7.44.0.Final-redhat-00003.jar, /home/bbalasub/.m2/repository/com/github/javaparser/javaparser-core/3.13.10/javaparser-core-3.13.10.jar, /home/bbalasub/.m2/repository/org/drools/drools-mvel-parser/7.44.0.Final-redhat-00003/drools-mvel-parser-7.44.0.Final-redhat-00003.jar, /home/bbalasub/.m2/repository/org/drools/drools-mvel-compiler/7.44.0.Final-redhat-00003/drools-mvel-compiler-7.44.0.Final-redhat-00003.jar]
+[DEBUG]   (f) compileSourceRoots = [/home/bbalasub/Desktop/citi-fps-rules/gv-rules/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes
+[DEBUG]   (f) projectArtifact = com.bala:rep-build-error:kjar:3.0.0
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@7c4fc2bf
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7c4fc2bf
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/home/bbalasub/Desktop/citi-fps-rules/gv-rules/src/main/java]
+[DEBUG] Classpath: [/home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes
+ /home/bbalasub/.m2/repository/org/kie/kie-api/7.44.0.Final-redhat-00003/kie-api-7.44.0.Final-redhat-00003.jar
+ /home/bbalasub/.m2/repository/org/kie/soup/kie-soup-maven-support/7.44.0.Final-redhat-00003/kie-soup-maven-support-7.44.0.Final-redhat-00003.jar
+ /home/bbalasub/.m2/repository/org/slf4j/slf4j-api/1.7.26.redhat-00001/slf4j-api-1.7.26.redhat-00001.jar
+ /home/bbalasub/.m2/repository/org/drools/drools-core/7.44.0.Final-redhat-00003/drools-core-7.44.0.Final-redhat-00003.jar
+ /home/bbalasub/.m2/repository/org/mvel/mvel2/2.4.10.Final-redhat-00001/mvel2-2.4.10.Final-redhat-00001.jar
+ /home/bbalasub/.m2/repository/org/kie/kie-internal/7.44.0.Final-redhat-00003/kie-internal-7.44.0.Final-redhat-00003.jar
+ /home/bbalasub/.m2/repository/org/kie/soup/kie-soup-xstream/7.44.0.Final-redhat-00003/kie-soup-xstream-7.44.0.Final-redhat-00003.jar
+ /home/bbalasub/.m2/repository/org/drools/drools-core-reflective/7.44.0.Final-redhat-00003/drools-core-reflective-7.44.0.Final-redhat-00003.jar
+ /home/bbalasub/.m2/repository/org/drools/drools-core-dynamic/7.44.0.Final-redhat-00003/drools-core-dynamic-7.44.0.Final-redhat-00003.jar
+ /home/bbalasub/.m2/repository/org/kie/soup/kie-soup-project-datamodel-commons/7.44.0.Final-redhat-00003/kie-soup-project-datamodel-commons-7.44.0.Final-redhat-00003.jar
+ /home/bbalasub/.m2/repository/org/kie/soup/kie-soup-project-datamodel-api/7.44.0.Final-redhat-00003/kie-soup-project-datamodel-api-7.44.0.Final-redhat-00003.jar
+ /home/bbalasub/.m2/repository/commons-codec/commons-codec/1.11.0.redhat-00001/commons-codec-1.11.0.redhat-00001.jar
+ /home/bbalasub/.m2/repository/org/drools/drools-compiler/7.44.0.Final-redhat-00003/drools-compiler-7.44.0.Final-redhat-00003.jar
+ /home/bbalasub/.m2/repository/org/kie/soup/kie-soup-commons/7.44.0.Final-redhat-00003/kie-soup-commons-7.44.0.Final-redhat-00003.jar
+ /home/bbalasub/.m2/repository/org/antlr/antlr-runtime/3.5.2.redhat-1/antlr-runtime-3.5.2.redhat-1.jar
+ /home/bbalasub/.m2/repository/com/thoughtworks/xstream/xstream/1.4.11.1-redhat-00001/xstream-1.4.11.1-redhat-00001.jar
+ /home/bbalasub/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar
+ /home/bbalasub/.m2/repository/xpp3/xpp3_min/1.1.4c-redhat-2/xpp3_min-1.1.4c-redhat-2.jar
+ /home/bbalasub/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar
+ /home/bbalasub/.m2/repository/org/drools/drools-model-compiler/7.44.0.Final-redhat-00003/drools-model-compiler-7.44.0.Final-redhat-00003.jar
+ /home/bbalasub/.m2/repository/org/drools/drools-canonical-model/7.44.0.Final-redhat-00003/drools-canonical-model-7.44.0.Final-redhat-00003.jar
+ /home/bbalasub/.m2/repository/com/github/javaparser/javaparser-core/3.13.10/javaparser-core-3.13.10.jar
+ /home/bbalasub/.m2/repository/org/drools/drools-mvel-parser/7.44.0.Final-redhat-00003/drools-mvel-parser-7.44.0.Final-redhat-00003.jar
+ /home/bbalasub/.m2/repository/org/drools/drools-mvel-compiler/7.44.0.Final-redhat-00003/drools-mvel-compiler-7.44.0.Final-redhat-00003.jar]
+[DEBUG] Output directory: /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: /home/bbalasub/Desktop/citi-fps-rules/gv-rules/src/main/java/com/bala/Collector.java
+[DEBUG] Stale source detected: /home/bbalasub/Desktop/citi-fps-rules/gv-rules/src/main/java/com/bala/FpsTest.java
+[DEBUG] Stale source detected: /home/bbalasub/Desktop/citi-fps-rules/gv-rules/src/main/java/com/bala/ParticipantEvent.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes
+[DEBUG]  /home/bbalasub/.m2/repository/org/kie/kie-api/7.44.0.Final-redhat-00003/kie-api-7.44.0.Final-redhat-00003.jar
+[DEBUG]  /home/bbalasub/.m2/repository/org/kie/soup/kie-soup-maven-support/7.44.0.Final-redhat-00003/kie-soup-maven-support-7.44.0.Final-redhat-00003.jar
+[DEBUG]  /home/bbalasub/.m2/repository/org/slf4j/slf4j-api/1.7.26.redhat-00001/slf4j-api-1.7.26.redhat-00001.jar
+[DEBUG]  /home/bbalasub/.m2/repository/org/drools/drools-core/7.44.0.Final-redhat-00003/drools-core-7.44.0.Final-redhat-00003.jar
+[DEBUG]  /home/bbalasub/.m2/repository/org/mvel/mvel2/2.4.10.Final-redhat-00001/mvel2-2.4.10.Final-redhat-00001.jar
+[DEBUG]  /home/bbalasub/.m2/repository/org/kie/kie-internal/7.44.0.Final-redhat-00003/kie-internal-7.44.0.Final-redhat-00003.jar
+[DEBUG]  /home/bbalasub/.m2/repository/org/kie/soup/kie-soup-xstream/7.44.0.Final-redhat-00003/kie-soup-xstream-7.44.0.Final-redhat-00003.jar
+[DEBUG]  /home/bbalasub/.m2/repository/org/drools/drools-core-reflective/7.44.0.Final-redhat-00003/drools-core-reflective-7.44.0.Final-redhat-00003.jar
+[DEBUG]  /home/bbalasub/.m2/repository/org/drools/drools-core-dynamic/7.44.0.Final-redhat-00003/drools-core-dynamic-7.44.0.Final-redhat-00003.jar
+[DEBUG]  /home/bbalasub/.m2/repository/org/kie/soup/kie-soup-project-datamodel-commons/7.44.0.Final-redhat-00003/kie-soup-project-datamodel-commons-7.44.0.Final-redhat-00003.jar
+[DEBUG]  /home/bbalasub/.m2/repository/org/kie/soup/kie-soup-project-datamodel-api/7.44.0.Final-redhat-00003/kie-soup-project-datamodel-api-7.44.0.Final-redhat-00003.jar
+[DEBUG]  /home/bbalasub/.m2/repository/commons-codec/commons-codec/1.11.0.redhat-00001/commons-codec-1.11.0.redhat-00001.jar
+[DEBUG]  /home/bbalasub/.m2/repository/org/drools/drools-compiler/7.44.0.Final-redhat-00003/drools-compiler-7.44.0.Final-redhat-00003.jar
+[DEBUG]  /home/bbalasub/.m2/repository/org/kie/soup/kie-soup-commons/7.44.0.Final-redhat-00003/kie-soup-commons-7.44.0.Final-redhat-00003.jar
+[DEBUG]  /home/bbalasub/.m2/repository/org/antlr/antlr-runtime/3.5.2.redhat-1/antlr-runtime-3.5.2.redhat-1.jar
+[DEBUG]  /home/bbalasub/.m2/repository/com/thoughtworks/xstream/xstream/1.4.11.1-redhat-00001/xstream-1.4.11.1-redhat-00001.jar
+[DEBUG]  /home/bbalasub/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar
+[DEBUG]  /home/bbalasub/.m2/repository/xpp3/xpp3_min/1.1.4c-redhat-2/xpp3_min-1.1.4c-redhat-2.jar
+[DEBUG]  /home/bbalasub/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar
+[DEBUG]  /home/bbalasub/.m2/repository/org/drools/drools-model-compiler/7.44.0.Final-redhat-00003/drools-model-compiler-7.44.0.Final-redhat-00003.jar
+[DEBUG]  /home/bbalasub/.m2/repository/org/drools/drools-canonical-model/7.44.0.Final-redhat-00003/drools-canonical-model-7.44.0.Final-redhat-00003.jar
+[DEBUG]  /home/bbalasub/.m2/repository/com/github/javaparser/javaparser-core/3.13.10/javaparser-core-3.13.10.jar
+[DEBUG]  /home/bbalasub/.m2/repository/org/drools/drools-mvel-parser/7.44.0.Final-redhat-00003/drools-mvel-parser-7.44.0.Final-redhat-00003.jar
+[DEBUG]  /home/bbalasub/.m2/repository/org/drools/drools-mvel-compiler/7.44.0.Final-redhat-00003/drools-mvel-compiler-7.44.0.Final-redhat-00003.jar
+[DEBUG] Source roots:
+[DEBUG]  /home/bbalasub/Desktop/citi-fps-rules/gv-rules/src/main/java
+[DEBUG] Command line options:
+[DEBUG] -d /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes -classpath /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes:/home/bbalasub/.m2/repository/org/kie/kie-api/7.44.0.Final-redhat-00003/kie-api-7.44.0.Final-redhat-00003.jar:/home/bbalasub/.m2/repository/org/kie/soup/kie-soup-maven-support/7.44.0.Final-redhat-00003/kie-soup-maven-support-7.44.0.Final-redhat-00003.jar:/home/bbalasub/.m2/repository/org/slf4j/slf4j-api/1.7.26.redhat-00001/slf4j-api-1.7.26.redhat-00001.jar:/home/bbalasub/.m2/repository/org/drools/drools-core/7.44.0.Final-redhat-00003/drools-core-7.44.0.Final-redhat-00003.jar:/home/bbalasub/.m2/repository/org/mvel/mvel2/2.4.10.Final-redhat-00001/mvel2-2.4.10.Final-redhat-00001.jar:/home/bbalasub/.m2/repository/org/kie/kie-internal/7.44.0.Final-redhat-00003/kie-internal-7.44.0.Final-redhat-00003.jar:/home/bbalasub/.m2/repository/org/kie/soup/kie-soup-xstream/7.44.0.Final-redhat-00003/kie-soup-xstream-7.44.0.Final-redhat-00003.jar:/home/bbalasub/.m2/repository/org/drools/drools-core-reflective/7.44.0.Final-redhat-00003/drools-core-reflective-7.44.0.Final-redhat-00003.jar:/home/bbalasub/.m2/repository/org/drools/drools-core-dynamic/7.44.0.Final-redhat-00003/drools-core-dynamic-7.44.0.Final-redhat-00003.jar:/home/bbalasub/.m2/repository/org/kie/soup/kie-soup-project-datamodel-commons/7.44.0.Final-redhat-00003/kie-soup-project-datamodel-commons-7.44.0.Final-redhat-00003.jar:/home/bbalasub/.m2/repository/org/kie/soup/kie-soup-project-datamodel-api/7.44.0.Final-redhat-00003/kie-soup-project-datamodel-api-7.44.0.Final-redhat-00003.jar:/home/bbalasub/.m2/repository/commons-codec/commons-codec/1.11.0.redhat-00001/commons-codec-1.11.0.redhat-00001.jar:/home/bbalasub/.m2/repository/org/drools/drools-compiler/7.44.0.Final-redhat-00003/drools-compiler-7.44.0.Final-redhat-00003.jar:/home/bbalasub/.m2/repository/org/kie/soup/kie-soup-commons/7.44.0.Final-redhat-00003/kie-soup-commons-7.44.0.Final-redhat-00003.jar:/home/bbalasub/.m2/repository/org/antlr/antlr-runtime/3.5.2.redhat-1/antlr-runtime-3.5.2.redhat-1.jar:/home/bbalasub/.m2/repository/com/thoughtworks/xstream/xstream/1.4.11.1-redhat-00001/xstream-1.4.11.1-redhat-00001.jar:/home/bbalasub/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/home/bbalasub/.m2/repository/xpp3/xpp3_min/1.1.4c-redhat-2/xpp3_min-1.1.4c-redhat-2.jar:/home/bbalasub/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:/home/bbalasub/.m2/repository/org/drools/drools-model-compiler/7.44.0.Final-redhat-00003/drools-model-compiler-7.44.0.Final-redhat-00003.jar:/home/bbalasub/.m2/repository/org/drools/drools-canonical-model/7.44.0.Final-redhat-00003/drools-canonical-model-7.44.0.Final-redhat-00003.jar:/home/bbalasub/.m2/repository/com/github/javaparser/javaparser-core/3.13.10/javaparser-core-3.13.10.jar:/home/bbalasub/.m2/repository/org/drools/drools-mvel-parser/7.44.0.Final-redhat-00003/drools-mvel-parser-7.44.0.Final-redhat-00003.jar:/home/bbalasub/.m2/repository/org/drools/drools-mvel-compiler/7.44.0.Final-redhat-00003/drools-mvel-compiler-7.44.0.Final-redhat-00003.jar: -sourcepath /home/bbalasub/Desktop/citi-fps-rules/gv-rules/src/main/java: -s /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/generated-sources/annotations -g -nowarn -target 1.8 -source 1.8 -encoding UTF-8
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 3 source files to /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] 
+[INFO] --- kie-maven-plugin:7.48.0.Final-redhat-00006:generateModel (default-generateModel) @ rep-build-error ---
+[DEBUG] Configuring mojo org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006:generateModel from plugin realm ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006:generateModel' with basic configurator -->
+[DEBUG]   (f) generateModel = YES
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@7c4fc2bf
+[DEBUG]   (f) outputDirectory = /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target/classes
+[DEBUG]   (f) project = MavenProject: com.bala:rep-build-error:3.0.0 @ /home/bbalasub/Desktop/citi-fps-rules/gv-rules/pom.xml
+[DEBUG]   (f) projectDir = /home/bbalasub/Desktop/citi-fps-rules/gv-rules
+[DEBUG]   (f) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/bbalasub/Desktop/citi-fps-rules/gv-rules/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) targetDirectory = /home/bbalasub/Desktop/citi-fps-rules/gv-rules/target
+[DEBUG]   (f) testDir = /home/bbalasub/Desktop/citi-fps-rules/gv-rules/src/test/java
+[DEBUG]   (f) validateDMN = VALIDATE_SCHEMA,VALIDATE_MODEL,ANALYZE_DECISION_TABLE
+[DEBUG] -- end configuration --
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/drools/drools-core/7.48.0.Final-redhat-00006/drools-core-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added Service org.drools.core.io.impl.ResourceFactoryServiceImpl with priority 0
+[DEBUG] Added Service org.drools.core.concurrent.ExecutorProviderImpl with priority 0
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/drools/drools-compiler/7.48.0.Final-redhat-00006/drools-compiler-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added Service org.drools.compiler.kie.builder.impl.KieServicesImpl with priority 0
+[DEBUG] Added Service org.drools.compiler.builder.impl.KnowledgeBuilderFactoryServiceImpl with priority 0
+[DEBUG] Added Service org.drools.compiler.builder.impl.JaxbConfigurationFactoryServiceImpl with priority 0
+[DEBUG] Added Service org.drools.compiler.kie.builder.impl.KieBaseUpdatersImpl with priority 0
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/drools/drools-model-compiler/7.48.0.Final-redhat-00006/drools-model-compiler-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added Service org.drools.modelcompiler.CanonicalKieModuleProvider with priority 0
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/drools/drools-serialization-protobuf/7.48.0.Final-redhat-00006/drools-serialization-protobuf-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added Service org.drools.serialization.protobuf.MarshallerProviderImpl with priority 0
+[DEBUG] Added Service org.drools.serialization.protobuf.CompilationCacheProviderImpl with priority 0
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/drools/drools-mvel/7.48.0.Final-redhat-00006/drools-mvel-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added Service org.drools.mvel.MVELConstraintBuilder with priority 0
+[DEBUG] Added Service org.drools.mvel.MVELCoreComponentsBuilder with priority 0
+[DEBUG] Added Service org.drools.mvel.asm.ClassFieldAccessorFactory with priority 0
+[DEBUG] Added Service org.drools.mvel.asm.DefaultClassBuilderFactory with priority 0
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/drools/drools-alphanetwork-compiler/7.48.0.Final-redhat-00006/drools-alphanetwork-compiler-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added child Service +org.drools.ancompiler.KieBaseUpdaterANCFactory
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/kie/kie-internal/7.48.0.Final-redhat-00006/kie-internal-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added Service org.kie.internal.services.KieAssemblersImpl with priority 0
+[DEBUG] Added Service org.kie.internal.services.KieRuntimesImpl with priority 0
+[DEBUG] Added Service org.kie.internal.services.KieWeaversImpl with priority 0
+[DEBUG] Added Service org.kie.internal.services.KieBeliefsImpl with priority 0
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/drools/drools-decisiontables/7.48.0.Final-redhat-00006/drools-decisiontables-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added Service org.drools.decisiontable.DecisionTableProviderImpl with priority 0
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/drools/drools-scorecards/7.48.0.Final-redhat-00006/drools-scorecards-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added Service org.drools.scorecards.ScoreCardProviderImpl with priority 0
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/drools/kie-pmml/7.48.0.Final-redhat-00006/kie-pmml-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added child Service +org.kie.pmml.assembler.PMMLAssemblerService
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/kie/kie-pmml-evaluator-core/7.48.0.Final-redhat-00006/kie-pmml-evaluator-core-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added child Service +org.kie.pmml.evaluator.core.service.PMMLRuntimeService
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/kie/kie-pmml-evaluator-assembler/7.48.0.Final-redhat-00006/kie-pmml-evaluator-assembler-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added child Service +org.kie.pmml.evaluator.assembler.service.PMMLAssemblerService
+[DEBUG] Added child Service +org.kie.pmml.evaluator.assembler.PMMLWeaverService
+[DEBUG] Added Service org.kie.pmml.evaluator.assembler.factories.PMMLCommandExecutorFactoryImpl with priority 0
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/jbpm/jbpm-bpmn2/7.48.0.Final-redhat-00006/jbpm-bpmn2-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added Service org.jbpm.bpmn2.BPMN2ProcessProviderImpl with priority 0
+[DEBUG] Added Service org.jbpm.bpmn2.xml.XmlProcessDumperFactoryServiceImpl with priority 0
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/jbpm/jbpm-flow-builder/7.48.0.Final-redhat-00006/jbpm-flow-builder-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added Service org.jbpm.process.builder.ProcessBuilderFactoryServiceImpl with priority 0
+[DEBUG] Added child Service +org.jbpm.assembler.BPMN2AssemblerService
+[DEBUG] Added child Service +org.jbpm.weaver.BPMN2WeaverService
+[DEBUG] Added child Service +org.jbpm.assembler.DRFAssemblerService
+[DEBUG] Added child Service +org.jbpm.weaver.DRFWeaverService
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/jbpm/jbpm-flow/7.48.0.Final-redhat-00006/jbpm-flow-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added Service org.jbpm.marshalling.impl.ProcessMarshallerFactoryServiceImpl with priority 0
+[DEBUG] Added Service org.jbpm.process.instance.ProcessRuntimeFactoryServiceImpl with priority 0
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/jbpm/jbpm-case-mgmt-cmmn/7.48.0.Final-redhat-00006/jbpm-case-mgmt-cmmn-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added Service org.jbpm.casemgmt.cmmn.CMMNCaseProviderImpl with priority 0
+[DEBUG] Added child Service +org.jbpm.casemgmt.cmmn.assembler.CMMNAssemblerService
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/drools/drools-workbench-models-guided-dtable/7.48.0.Final-redhat-00006/drools-workbench-models-guided-dtable-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added Service org.drools.workbench.models.guided.dtable.backend.GuidedDecisionTableProviderImpl with priority 0
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/drools/drools-workbench-models-guided-template/7.48.0.Final-redhat-00006/drools-workbench-models-guided-template-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added Service org.drools.workbench.models.guided.template.backend.GuidedRuleTemplateProviderImpl with priority 0
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/drools/drools-workbench-models-guided-scorecard/7.48.0.Final-redhat-00006/drools-workbench-models-guided-scorecard-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added Service org.drools.workbench.models.guided.scorecard.backend.GuidedScoreCardProviderImpl with priority 0
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/optaplanner/optaplanner-core/7.48.0.Final-redhat-00006/optaplanner-core-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added child Service +org.optaplanner.core.impl.solver.kie.KieSolverAssemblerService
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/kie/kie-dmn-core/7.48.0.Final-redhat-00006/kie-dmn-core-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added child Service +org.kie.dmn.core.assembler.DMNAssemblerService
+[DEBUG] Added child Service +org.kie.dmn.core.runtime.DMNRuntimeService
+[DEBUG] Added child Service +org.kie.dmn.core.weaver.DMNWeaverService
+[DEBUG] Loading kie.conf from jar:file:/home/bbalasub/.m2/repository/org/drools/drools-ruleunit/7.48.0.Final-redhat-00006/drools-ruleunit-7.48.0.Final-redhat-00006.jar!/META-INF/kie.conf in classloader ClassRealm[extension>org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Added Service org.drools.ruleunit.impl.RuleUnitComponentFactoryImpl with priority 0
+[DEBUG] Service org.kie.internal.builder.KnowledgeBuilderFactoryService is implemented by org.drools.compiler.builder.impl.KnowledgeBuilderFactoryServiceImpl@5ebffb44
+[DEBUG] Service org.kie.api.internal.runtime.beliefs.KieBeliefs is implemented by org.kie.internal.services.KieBeliefsImpl@311ff287
+[DEBUG] Service org.jbpm.process.core.impl.XmlProcessDumperFactoryService is implemented by org.jbpm.bpmn2.xml.XmlProcessDumperFactoryServiceImpl@7377781e
+[DEBUG] Service org.drools.compiler.rule.builder.ConstraintBuilder is implemented by org.drools.mvel.MVELConstraintBuilder@31db34da
+[DEBUG] Service org.drools.core.base.FieldAccessorFactory is implemented by org.drools.mvel.asm.ClassFieldAccessorFactory@109f8c7e
+[DEBUG] Service org.drools.compiler.compiler.GuidedRuleTemplateProvider is implemented by org.drools.workbench.models.guided.template.backend.GuidedRuleTemplateProviderImpl@5edacf20
+[DEBUG] Service org.kie.internal.pmml.PMMLCommandExecutorFactory is implemented by org.kie.pmml.evaluator.assembler.factories.PMMLCommandExecutorFactoryImpl@16a5eb6d
+[DEBUG] Service org.kie.api.internal.runtime.KieRuntimes is implemented by org.kie.internal.services.KieRuntimesImpl@7e307087
+[DEBUG] Service org.drools.core.factmodel.ClassBuilderFactory is implemented by org.drools.mvel.asm.DefaultClassBuilderFactory@1220ef43
+[DEBUG] Service org.drools.compiler.compiler.BPMN2ProcessProvider is implemented by org.jbpm.bpmn2.BPMN2ProcessProviderImpl@1a8b81e8
+[DEBUG] Service org.drools.core.marshalling.impl.ProcessMarshallerFactoryService is implemented by org.jbpm.marshalling.impl.ProcessMarshallerFactoryServiceImpl@234cff57
+[DEBUG] Service org.drools.compiler.compiler.ProcessBuilderFactoryService is implemented by org.jbpm.process.builder.ProcessBuilderFactoryServiceImpl@5e8507f1
+[DEBUG] Service org.drools.core.runtime.process.ProcessRuntimeFactoryService is implemented by org.jbpm.process.instance.ProcessRuntimeFactoryServiceImpl@4bcaa195
+[DEBUG] Service org.kie.api.concurrent.KieExecutors is implemented by org.drools.core.concurrent.ExecutorProviderImpl@d08edc5
+[DEBUG] Service org.kie.api.KieServices is implemented by org.drools.compiler.kie.builder.impl.KieServicesImpl@49fa1d74
+[DEBUG] Service org.drools.compiler.kie.builder.impl.CompilationCacheProvider is implemented by org.drools.serialization.protobuf.CompilationCacheProviderImpl@3f362135
+[DEBUG] Service org.kie.api.marshalling.KieMarshallers is implemented by org.drools.serialization.protobuf.MarshallerProviderImpl@21eee94f
+[DEBUG] Service org.drools.compiler.compiler.CMMNCaseProvider is implemented by org.jbpm.casemgmt.cmmn.CMMNCaseProviderImpl@6bc24e72
+[DEBUG] Service org.drools.compiler.compiler.GuidedDecisionTableProvider is implemented by org.drools.workbench.models.guided.dtable.backend.GuidedDecisionTableProviderImpl@724aefc3
+[DEBUG] Service org.drools.compiler.kie.builder.impl.KieBaseUpdaters is implemented by org.drools.compiler.kie.builder.impl.KieBaseUpdatersImpl@7cfb4736
+[DEBUG] Service org.kie.internal.builder.JaxbConfigurationFactoryService is implemented by org.drools.compiler.builder.impl.JaxbConfigurationFactoryServiceImpl@2a097d77
+[DEBUG] Service org.kie.api.internal.assembler.KieAssemblers is implemented by org.kie.internal.services.KieAssemblersImpl@53c1179a
+[INFO] Using LEGACY implementation
+[INFO] Using LEGACY implementation
+[DEBUG] Service org.drools.compiler.kie.builder.impl.InternalKieModuleProvider is implemented by org.drools.modelcompiler.CanonicalKieModuleProvider@18539cb1
+[DEBUG] Service org.kie.internal.ruleunit.RuleUnitComponentFactory is implemented by org.drools.ruleunit.impl.RuleUnitComponentFactoryImpl@748f93bb
+[DEBUG] Service org.drools.compiler.compiler.ScoreCardProvider is implemented by org.drools.scorecards.ScoreCardProviderImpl@7f2d31af
+[DEBUG] Service org.kie.api.io.KieResources is implemented by org.drools.core.io.impl.ResourceFactoryServiceImpl@2e7157c7
+[DEBUG] Service org.drools.core.base.CoreComponentsBuilder is implemented by org.drools.mvel.MVELCoreComponentsBuilder@2a43e0ac
+[DEBUG] Service org.drools.compiler.compiler.DecisionTableProvider is implemented by org.drools.decisiontable.DecisionTableProviderImpl@22d9bc14
+[DEBUG] Service org.drools.compiler.compiler.GuidedScoreCardProvider is implemented by org.drools.workbench.models.guided.scorecard.backend.GuidedScoreCardProviderImpl@346f41a9
+[DEBUG] Service org.kie.api.internal.weaver.KieWeavers is implemented by org.kie.internal.services.KieWeaversImpl@1084f78c
+[DEBUG] Selected compiler ECLIPSE [drools.dialect.java.compiler:null, hasEclipseCompiler:true]
+[DEBUG] Selected compiler ECLIPSE [drools.dialect.java.compiler:null, hasEclipseCompiler:true]
+[DEBUG] Selected compiler ECLIPSE [drools.dialect.java.compiler:ECLIPSE, hasEclipseCompiler:true]
+[DEBUG] Selected compiler ECLIPSE [drools.dialect.java.compiler:ECLIPSE, hasEclipseCompiler:true]
+[DEBUG] Typed expression Input: drlxExpr = location , patternType = class com.bala.ParticipantEvent ,declarations = []
+[DEBUG] Typed expression Output: {expression=TypedExpression{expression=_this.getLocation(), jpType=MethodCallExpr, type=class java.lang.String, fieldName='location'}, usedDeclarations=[], reactOnProperties =[location]}
+[DEBUG] Typed expression Input: drlxExpr = "FUEL_STATION" , patternType = class com.bala.ParticipantEvent ,declarations = []
+[DEBUG] Typed expression Output: {expression=TypedExpression{expression="FUEL_STATION", jpType=StringLiteralExpr, type=class java.lang.String, fieldName='null'}, usedDeclarations=[], reactOnProperties =[location]}
+[DEBUG] Typed expression Input: drlxExpr = this , patternType = class com.bala.ParticipantEvent ,declarations = []
+[DEBUG] Typed expression Output: {expression=TypedExpression{expression=_this, jpType=NameExpr, type=class com.bala.ParticipantEvent, fieldName='null'}, usedDeclarations=[], reactOnProperties =[]}
+[DEBUG] Typed expression Input: drlxExpr = $t1 , patternType = class com.bala.ParticipantEvent ,declarations = []
+[DEBUG] Typed expression Output: {expression=TypedExpression{expression=$t1, jpType=NameExpr, type=class com.bala.ParticipantEvent, fieldName='null'}, usedDeclarations=[$t1], reactOnProperties =[]}
+[DEBUG] Typed expression Input: drlxExpr = this meets[2h] $t1 , patternType = class com.bala.ParticipantEvent ,declarations = []
+[DEBUG] Typed expression Output: {expression=TypedExpression{expression=D.meets(2L, java.util.concurrent.TimeUnit.HOURS), jpType=MethodCallExpr, type=class com.bala.ParticipantEvent, fieldName='null'}, usedDeclarations=[$t1, $t1], reactOnProperties =[]}
+[DEBUG] Typed expression Input: drlxExpr = location , patternType = class com.bala.ParticipantEvent ,declarations = []
+[DEBUG] Typed expression Output: {expression=TypedExpression{expression=_this.getLocation(), jpType=MethodCallExpr, type=class java.lang.String, fieldName='location'}, usedDeclarations=[], reactOnProperties =[location]}
+[DEBUG] Typed expression Input: drlxExpr = "JEWELLERY_STORE" , patternType = class com.bala.ParticipantEvent ,declarations = []
+[DEBUG] Typed expression Output: {expression=TypedExpression{expression="JEWELLERY_STORE", jpType=StringLiteralExpr, type=class java.lang.String, fieldName='null'}, usedDeclarations=[], reactOnProperties =[location]}
+[DEBUG] LHS phase on: Collector c = new Collector();
+[DEBUG] ExpressionStmt Collector c = new Collector();
+[DEBUG] VariableDeclarationExpr Collector c = new Collector()
+[DEBUG] VariableDeclarator c = new Collector()
+[DEBUG] LHS phase completed
+[DEBUG] LHS phase on: c.pEvent = null;
+[DEBUG] ExpressionStmt c.pEvent = null;
+[DEBUG] AssignExpr c.pEvent = null
+[DEBUG] FieldAccessExpr c.pEvent
+[DEBUG] DrlNameExpr c
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.455 s
+[INFO] Finished at: 2021-06-16T10:45:32+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006:generateModel (default-generateModel) on project rep-build-error: Execution default-generateModel of goal org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006:generateModel failed: RHS doesn't have a type -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006:generateModel (default-generateModel) on project rep-build-error: Execution default-generateModel of goal org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006:generateModel failed: RHS doesn't have a type
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:215)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.apache.maven.plugin.PluginExecutionException: Execution default-generateModel of goal org.kie:kie-maven-plugin:7.48.0.Final-redhat-00006:generateModel failed: RHS doesn't have a type
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:148)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.drools.mvelcompiler.MvelCompilerException: RHS doesn't have a type
+    at org.drools.mvelcompiler.LHSPhase.lambda$getRHSType$20 (LHSPhase.java:364)
+    at java.util.Optional.orElseThrow (Optional.java:290)
+    at org.drools.mvelcompiler.LHSPhase.getRHSType (LHSPhase.java:364)
+    at org.drools.mvelcompiler.LHSPhase.lambda$visit$3 (LHSPhase.java:124)
+    at java.util.Optional.orElseGet (Optional.java:267)
+    at org.drools.mvelcompiler.LHSPhase.visit (LHSPhase.java:124)
+    at org.drools.mvelcompiler.LHSPhase.visit (LHSPhase.java:68)
+    at com.github.javaparser.ast.expr.FieldAccessExpr.accept (FieldAccessExpr.java:90)
+    at org.drools.mvelcompiler.LHSPhase.visit (LHSPhase.java:265)
+    at org.drools.mvelcompiler.LHSPhase.visit (LHSPhase.java:68)
+    at com.github.javaparser.ast.expr.AssignExpr.accept (AssignExpr.java:135)
+    at org.drools.mvelcompiler.LHSPhase.visit (LHSPhase.java:257)
+    at org.drools.mvelcompiler.LHSPhase.visit (LHSPhase.java:68)
+    at com.github.javaparser.ast.stmt.ExpressionStmt.accept (ExpressionStmt.java:71)
+    at org.drools.mvelcompiler.LHSPhase.invoke (LHSPhase.java:83)
+    at org.drools.mvelcompiler.MvelCompiler.compileStatement (MvelCompiler.java:101)
+    at org.drools.mvelcompiler.MvelCompiler.processWithMvelCompiler (MvelCompiler.java:95)
+    at org.drools.mvelcompiler.MvelCompiler.compileStatement (MvelCompiler.java:65)
+    at org.drools.modelcompiler.builder.generator.visitor.accumulate.AccumulateInline.parseInitBlock (AccumulateInline.java:184)
+    at org.drools.modelcompiler.builder.generator.visitor.accumulate.AccumulateInline.visitAccInlineCustomCode (AccumulateInline.java:115)
+    at org.drools.modelcompiler.builder.generator.visitor.accumulate.AccumulateInlineVisitor.inlineAccumulate (AccumulateInlineVisitor.java:57)
+    at org.drools.modelcompiler.builder.generator.visitor.accumulate.AccumulateVisitor.visit (AccumulateVisitor.java:129)
+    at org.drools.modelcompiler.builder.generator.visitor.ModelGeneratorVisitor.visit (ModelGeneratorVisitor.java:139)
+    at org.drools.compiler.lang.descr.PatternDescr.accept (PatternDescr.java:303)
+    at org.drools.modelcompiler.builder.generator.visitor.AndVisitor.visit (AndVisitor.java:50)
+    at org.drools.modelcompiler.builder.generator.visitor.ModelGeneratorVisitor.visit (ModelGeneratorVisitor.java:86)
+    at org.drools.modelcompiler.builder.generator.ModelGenerator.processRule (ModelGenerator.java:187)
+    at org.drools.modelcompiler.builder.generator.ModelGenerator.generateModel (ModelGenerator.java:160)
+    at org.drools.modelcompiler.builder.ModelBuilderImpl.compileKnowledgePackages (ModelBuilderImpl.java:284)
+    at org.drools.modelcompiler.builder.ModelBuilderImpl.buildRules (ModelBuilderImpl.java:220)
+    at org.drools.modelcompiler.builder.ModelBuilderImpl.postBuild (ModelBuilderImpl.java:130)
+    at org.drools.compiler.builder.impl.CompositeKnowledgeBuilderImpl.build (CompositeKnowledgeBuilderImpl.java:111)
+    at org.drools.compiler.builder.impl.CompositeKnowledgeBuilderImpl.build (CompositeKnowledgeBuilderImpl.java:97)
+    at org.drools.compiler.kie.builder.impl.AbstractKieProject.buildKnowledgePackages (AbstractKieProject.java:268)
+    at org.drools.compiler.kie.builder.impl.AbstractKieProject.buildKnowledgePackages (AbstractKieProject.java:216)
+    at org.drools.compiler.kie.builder.impl.AbstractKieProject.verify (AbstractKieProject.java:80)
+    at org.drools.compiler.kie.builder.impl.KieBuilderImpl.buildKieProject (KieBuilderImpl.java:277)
+    at org.drools.compiler.kie.builder.impl.KieBuilderImpl.buildAll (KieBuilderImpl.java:245)
+    at org.kie.maven.plugin.GenerateModelMojo.generateModel (GenerateModelMojo.java:144)
+    at org.kie.maven.plugin.GenerateModelMojo.execute (GenerateModelMojo.java:104)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException

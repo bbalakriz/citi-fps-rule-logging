@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule">
+	<kbase name="fps-sf-rules" equalsBehavior="equality" packages="fps">
+	  <ksession name="fps-sf-session" type="stateful" default="true">
+		<listeners>
+			<agendaEventListener type="com.citi.listeners.RulesAgendaEventListener"/>
+	        <ruleRuntimeEventListener type="com.citi.listeners.RulesRuntimeEventListener"/>
+      	</listeners>
+	  </ksession>
+	</kbase>
+</kmodule>

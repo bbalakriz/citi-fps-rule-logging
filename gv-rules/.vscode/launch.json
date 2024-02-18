@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch FpsTest",
+            "request": "launch",
+            "mainClass": "com.bala.FpsTest",
+            "projectName": "rep-build-error"
+        },
+        {
+            "type": "java",
+            "name": "Launch CollectLastFunction",
+            "request": "launch",
+            "mainClass": "com.bala.CollectLastFunction",
+            "projectName": "gv-rules"
+        },
+        {
+            "type": "java",
+            "name": "Launch FpsTest",
+            "request": "launch",
+            "mainClass": "com.bala.FpsTest",
+            "projectName": "gv-rules"
+        },
+        {
+            "type": "java",
+            "name": "Launch LiTest",
+            "request": "launch",
+            "mainClass": "com.bala.LiTest",
+            "projectName": "gv-rules"
+        },
+        {
+            "type": "java",
+            "name": "Launch DMTest",
+            "request": "launch",
+            "mainClass": "com.bala.DMTest",
+            "projectName": "gv-rules"
+        },
+        {
+            "type": "java",
+            "name": "Launch DMTest",
+            "request": "launch",
+            "mainClass": "com.bala.DMTest",
+            "projectName": "fernando-rules"
+        },
+        {
+            "type": "java",
+            "name": "Launch DMTest",
+            "request": "launch",
+            "mainClass": "com.bala.DMTest",
+            "projectName": "afps-rules"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FlatMarketTest",
+            "request": "launch",
+            "mainClass": "com.sample.test.FlatMarketTest",
+            "projectName": "afps-rules"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DMTest<afps-rules>",
+            "request": "launch",
+            "mainClass": "com.sample.DMTest",
+            "projectName": "afps-rules"
+        }
+    ]
+}
